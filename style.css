@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+
+body {
+        margin: 25%;
+        margin-top: 5%;
+        font-size: 15px;
+        background-color: antiquewhite;
+ }
+ /*Titulo donde modifique color, tipografia, grosor y una decoracion*/
+ h2 {
+    color: brown;
+    font-family: cursive;
+    font-size: 30px;
+    text-decoration: overline;
+/*Subtitulo donde modifique el margen, color, tipografia, grosor y una decoracion*/
+}
+h3 {
+    margin-top: 2%;
+    margin-bottom: 1%;
+    color:brown;
+    font-family: cursive;
+    font-size: 25px;
+    text-decoration: underline;
+}
+/*Clase para poner en negrita (en este caso un parrafo)*/
+.negrita {
+    font-weight: bold;
+}
+/* Direccion y direccio2 fue para modificar lo que tengo en <address>*/
+.direccion {
+    text-align: right;
+    margin-right: 5%;
+    
+}
+.direccion2 {
+    height: 150px;
+    line-height: 200%;
+}
+/* Clase para modificar lista1 y lista2*/
+.lista1 {
+    margin-left: 5%;
+    word-spacing: 15px;
+}
+.lista2 {
+    margin-left: 5%;
+}
+/* Recuadro para enmarcar en este caso un parrafo*/
+.word2{
+    word-wrap: break-word;
+    width: 700px;
+    border: 1px solid black;
+}
+/* Lo utilice para hacer un margen en el texto del parrafo que esta enmarcado*/
+.espacio{
+    margin-left: 5%;
+}
+
+#a {
+    quotes: "";
+}
+/* Utilice .vertical y .horizontal para darle forma al pie de pagina */
+.vertical {
+    writing-mode: vertical-rl;
+    font-family: cursive;
+    text-decoration: overline underline;
+    margin-bottom: 5px  ;
+}
+.horizontal {
+    font-family: cursive;
+    text-decoration: underline;
+}
+
+
+
+
+
